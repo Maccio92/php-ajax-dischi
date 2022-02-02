@@ -14,15 +14,13 @@
     <main class="bg" id="app">
         <div class="container">
             <div class="row row-cols-5 pt-5 gx-3">
-                <div class="cards">
-                    <div class="card" v-for="disc in discs">
+                    <div class="col py4" v-for="disc in discs">
                         <div class="col-bg">        
                             <img class="img-fluid" :src="disc.poster" alt="">
-                            <h2>{{disc.title}}</h2>
-                            <h3>{{disc.author}}</h3>
-                            <h4>{{disc.year}}</h4>
+                            <h2 class="title" >{{disc.title}}</h2>
+                            <h3 class="author">{{disc.author}}</h3>
+                            <h4 class="year">{{disc.year}}</h4>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
