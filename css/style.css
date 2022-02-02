@@ -7,3 +7,12 @@
 .logo{
     width: 50px;
 }
+.footer-container{
+    height: 50px;
+    background-color: #2e3a46;
+    text-align: center;
+}
+h3{
+    color: white;
+    font-size: 1em;
+}
