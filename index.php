@@ -19,8 +19,14 @@ Fate prima un diagramma come abbiamo visto assieme e poi solo dopo passate a cre
     <title>Document</title>
 </head>
 <body>
-    <?php include_once __DIR__ . '/partials/header.php' ?>
-    <main></main>
-    <?php include_once __DIR__ . '/partials/footer.php' ?>
+    <?php include __DIR__ . '/partials/header.php' ?>
+    <main class="bg">
+        <div class="container">
+            <div class="row row-cols-5 pt-5 gx-3">
+                <?php include __DIR__ . '/partials/cards.php' ?>
+            </div>
+        </div>
+    </main>
+    <?php include __DIR__ . '/partials/footer.php' ?>
 </body>
 </html>
